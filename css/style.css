@@ -86,8 +86,6 @@ body {
   .link:hover, .link:active {
     text-decoration: underline;
     color: #1a4d58; }
-  .link:active {
-    font-size: 1rem; }
 
 .calendar-link img {
   width: 55%; }
