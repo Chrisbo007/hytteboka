@@ -1,0 +1,83 @@
+.big-btn {
+    background-color: $color-primary;
+    border: none;
+    color: $color-white;
+
+    font-family: $font-headline;
+    font-size: $font-size-btn;
+
+    padding: 1.5rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    width: 20rem;
+    height: 6rem;
+    
+
+    &:hover,
+    &:active {
+        width: 19rem;
+        height: 5.5rem;
+        background-color: $color-secondary;
+    } 
+}
+
+.small-btn {
+    background-color: $color-primary;
+    border: none;
+    color: $color-white;
+
+    font-family: $font-nav;
+    font-size: 1.2rem;
+
+    padding: 1rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    width: 8rem;
+    height: 2rem;
+
+    justify-items: right;
+    
+
+    &:hover,
+    &:active {
+        padding: 1.1rem 2.6rem;
+
+        background-color: $color-secondary;
+    } 
+}
+
+.btn {
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.submit-btn {
+    background-color: $color-primary;
+    border: none;
+    color: $color-white;
+
+    font-family: $font-nav;
+    font-size: 1.2rem;
+
+    padding: 1rem 2.5rem 1rem;
+    cursor: pointer;
+
+    width: 8rem;
+    height: 2rem;
+
+    justify-items: center;
+    
+
+    &:hover,
+    &:active {
+        padding: 1.4rem 2.4rem 1.4rem;
+        font-size: 1.1rem;
+        align-items: center;
+
+        background-color: $color-secondary;
+    } 
+}

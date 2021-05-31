@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  background-color: #fff;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.container-index {
+  display: grid;
+  background-color: #fff;
+  margin: 0 auto;
+  grid-template-rows: 100vh; }
+
+.big-btn {
+  background-color: #0c343d;
+  border: none;
+  color: #fff;
+  font-family: "Merienda", cursive;
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 20rem;
+  height: 6rem; }
+  .big-btn:hover, .big-btn:active {
+    width: 19rem;
+    height: 5.5rem;
+    background-color: #1a4d58; }
+
+.small-btn {
+  background-color: #0c343d;
+  border: none;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 8rem;
+  height: 2rem;
+  justify-items: right; }
+  .small-btn:hover, .small-btn:active {
+    padding: 1.1rem 2.6rem;
+    background-color: #1a4d58; }
+
+.btn {
+  text-align: right;
+  margin-right: 3rem; }
+
+.link {
+  text-decoration: none;
+  color: #0c343d;
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif; }
+  .link:hover, .link:active {
+    text-decoration: underline;
+    color: #1a4d58; }
+  .link:active {
+    font-size: 1rem; }
+
+.calendar-link img {
+  width: 55%; }
+
+.calendar-link:hover, .calendar-link:active {
+  color: #1a4d58; }
+
+.calendar-link:active {
+  width: 12%; }
+
+.content-hytte {
+  display: flex;
+  flex-direction: row; }
+  .content-hytte__left {
+    width: 50%; }
+    .content-hytte__left img {
+      position: fixed;
+      max-width: 50%;
+      height: auto;
+      object-position: left top; }
+  .content-hytte__right {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 50%; }
+    .content-hytte__right--nav {
+      display: flex;
+      height: 10vh;
+      background-color: #fff;
+      position: sticky;
+      top: 0;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem 0 2rem;
+      -moz-box-shadow: 0px 15px 10px -15px #eee;
+      -webkit-box-shadow: 0px 15px 10px -15px #eee;
+      box-shadow: 0px 15px 10px -15px #eee; }
+    .content-hytte__right--text {
+      margin-top: 5rem; }
+      .content-hytte__right--text .date {
+        color: #a3a3a3;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif; }
+      .content-hytte__right--text .headline {
+        color: #5b0f00;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Merienda", cursive;
+        margin: 2rem 0 2rem 0; }
+      .content-hytte__right--text .text {
+        color: #0c343d;
+        font-family: "Handlee", cursive;
+        font-size: 1.4rem;
+        margin: 0 3rem 0 3rem; }
+      .content-hytte__right--text .photos {
+        margin: 4rem 3rem 0 3rem; }
+        .content-hytte__right--text .photos .photo {
+          margin-top: 1rem;
+          max-width: 100%;
+          height: auto; }
+      .content-hytte__right--text .note {
+        font-family: "Merienda", cursive;
+        font-size: 1.5rem;
+        margin: 4rem 3rem 4rem 3rem;
+        color: #0c343d; }
+
+.nav-hyttebok {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #0c343d;
+  font-family: "Josefin Sans", sans-serif; }
+
+.background {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; }
+  .background img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 999; }
+  .background .big-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 1.6rem; }
+
+.nav-calender {
+  width: 100%;
+  background: sienna; }
+  .nav-calender__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: sienna; }
+    .nav-calender__list--item {
+      list-style: none;
+      padding: 5rem;
+      padding: 5rem; }

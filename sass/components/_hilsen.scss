@@ -1,0 +1,57 @@
+.newPost {
+    background-color: $color-white;
+    display: flex;
+    height: 100vh;
+ }
+ 
+ .input {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 100%;
+     font-size: $font-size-paragraphs;
+ }
+ 
+ .dateField {
+     padding: 1rem;
+     margin-bottom: 2rem;
+ }
+ 
+ .titleField {
+     padding: 1rem;
+     max-width: 100%;
+     font-size: $font-size-paragraphs;
+     margin-bottom: 2rem;
+ }
+ 
+ .textField {
+     padding: 1rem;
+     max-width: 100%;
+     height: auto;
+     font-size: $font-size-paragraphs;
+     margin-bottom: 2rem;
+ }
+ 
+ .imgField {
+     padding: 1rem;
+     font-size: 1.5rem;
+     margin-bottom: 2rem;
+ }
+ 
+ .signatureField {
+     padding: 0.2rem;
+     max-width: 100%;
+     font-size: $font-size-paragraphs;
+     margin-bottom: 2rem;
+ }
+ 
+ .submitBtn {
+     margin-bottom: 2rem;
+     padding: 1rem 0 2rem;
+     align-items: center;
+ }
+ 
+ .hidden {
+    display: none;
+}

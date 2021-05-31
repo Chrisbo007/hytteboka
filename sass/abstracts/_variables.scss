@@ -1,0 +1,38 @@
+//FONT VARIABLES
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap'); //Merienda
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap'); // Josefin Sans
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap'); // Handlee
+
+
+$font-headline: 'Merienda', cursive;
+$font-date: 'Josefin Sans', sans-serif;
+$font-nav: 'Josefin Sans', sans-serif;
+$font-paragraphs: 'Handlee', cursive;
+$font-btn: 'Josefin Sans', sans-serif;
+
+
+$font-size-headline: 3rem;
+$font-size-date: 2rem;
+$font-size-nav: 2rem;
+$font-size-btn: 1.6rem;
+$font-size-paragraphs: 2rem;
+
+
+//COLOR
+
+$color-primary: #0c343d;
+$color-secondary: #1a4d58;
+
+$color-headline: #5b0f00;
+$color-text: #000;
+
+$color-white: #fff;
+$color-gray: #a3a3a3;
+
+
+//Margins and paddings
+
+$margin-sideborder: 0 2rem 0 2rem;
+$margin-btn-top: 2rem;
+$margin-space-bottom: 10rem;
+$padding-text: 3rem 0 3rem 0;

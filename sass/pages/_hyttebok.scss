@@ -1,0 +1,128 @@
+.content-hytte {
+    display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width: $bp-medium-small){
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    &__left{
+        width: 50%;
+
+        @media only screen and (max-width: $bp-medium-small){
+            width: 100%;
+        }
+        
+        img {
+            position: fixed ;
+            max-width: 50% ;
+            height: auto;
+            object-position: left top;
+
+            @media only screen and (max-width: $bp-medium-small){
+                min-width: 100%;
+                opacity:0.5;
+                position: cover;
+                min-height: 100vh; 
+                max-width: 120%;           
+            }
+            
+    
+        }
+        
+    }
+
+    &__right{
+        display: flex;
+        flex-direction: column;
+        position: sticky; 
+        margin-left: 3rem;
+
+        width: 50%;
+
+        @media only screen and (max-width: $bp-medium-small){
+            min-width: 100%;
+            z-index: 999;
+            background-color: $color-white;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            justify-content: center;
+
+        }
+
+        &--nav{
+            display: flex;
+            height: 10vh;
+            background-color: $color-white;
+            position: sticky;
+            top: 0;
+
+            justify-content: space-between;
+            align-items: center;
+            padding: $margin-sideborder;
+
+            -moz-box-shadow: 0px 15px 10px -15px #eee;
+            -webkit-box-shadow: 0px 15px 10px -15px #eee;
+            box-shadow: 0px 15px 10px -15px #eee;
+
+    
+        }
+
+        &--text {
+            margin-top: 5rem;
+            
+            
+            .date {
+                color: $color-gray;
+                font-size: 1rem;
+                text-align: center;
+                font-family: $font-date;
+            }
+
+            .headline {
+                color: $color-headline;
+                font-size: 2rem;
+                text-align: center;
+                font-family: $font-headline;
+                margin: 2rem 0 1rem 0;
+            }
+
+            .text {
+                color: $color-primary;
+                font-family: $font-paragraphs;
+                font-size: 1.4rem;
+                margin: 1rem 3rem 0 3rem;
+            }
+
+            .photos {
+                margin: 4rem 3rem 0 3rem;
+
+
+                .photo {
+                    margin-top: 1rem;
+                    max-width: 100%;
+                    height: auto;
+
+    
+                }
+            }
+
+            .note {
+                font-family: $font-headline;
+                font-size: 1.5rem;
+                margin: 4rem 3rem 4rem 3rem;
+                color: $color-primary;
+
+            }
+        }
+
+    }
+}
+
+.nav-hyttebok {
+    font-size: 2rem;
+    text-decoration: none;
+    color: $color-primary;
+    font-family: $font-nav;
+}

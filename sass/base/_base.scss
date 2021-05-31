@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px / 16px browser default = 62.5% --> 1rem = 10px
+
+}
+
+body {
+    background-color: $color-white;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+
+
+//Responsive Breakpoints
+$bp-largest: 75em; //1200px / 16px
+$bp-large: 64em; // 1024px
+$bp-medium-small: 60.5em; // 970px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 25em; // 400px
+
+
+//
+
+.container-index {
+    display: grid;
+    background-color: $color-white;
+    margin: 0 auto;
+    
+    grid-template-rows: 100vh;
+
+}
+
