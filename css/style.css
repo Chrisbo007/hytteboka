@@ -145,6 +145,9 @@ body {
   height: auto;
   font-size: 2rem;
   margin-bottom: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .textField {
+      max-width: 80%; } }
 
 .imgField {
   padding: 1rem;

@@ -31,6 +31,11 @@
      height: auto;
      font-size: $font-size-paragraphs;
      margin-bottom: 2rem;
+
+     @media only screen and (max-width: $bp-small){
+        max-width: 80%;
+
+    }
  }
  
  .imgField {
